@@ -1,0 +1,6 @@
+config/database.php
+tmp/*
+*.bak
+.DS_Store
+webroot/files/*
+*.html
