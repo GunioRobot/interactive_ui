@@ -70,7 +70,7 @@ class InPlaceEditorHelper extends AppHelper {
 		$tag = "<span id='$flame_id'>";
 		$tag = $tag.$secure;
 		$tag = $tag."<span id='$id' data_id='$data_id' output='$output_id' url='$url' model='$model' field='$field' ";
-		$tag = $tag."onmouseover='setup_inplaceeditor(\"$id\", \"$type\", \"$htmledit\", \"$directedit\");' $token_id=\"$token\">$value</span>";
+		$tag = $tag."onmouseover=\"setup_inplaceeditor('$id', '$type', '$htmledit', '$directedit');\" $token_id='$token'>$value</span>";
 		$tag = $tag."<span id='$output_id'></span>";
 		$tag = $tag."</span>";
 

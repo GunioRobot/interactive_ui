@@ -50,7 +50,7 @@ class UploadifyHelper extends AppHelper {
 		
 		$tag = "<div id='$id'>uploadify</div><div id='fileQueue'></div>";
 		$script = "<script type='text/javascript'>";
-		$script = $script." $(function(){ setup_uploadify(\"$id\", \"$url\", \"$uploader\", \"$cancelimg\", $limit, $multi, $auto, \"$caption\"); }); ";
+		$script = $script." $(function(){ setup_uploadify('$id', '$url', '$uploader', '$cancelimg', $limit, $multi, $auto, '$caption' ); }); ";
 		$script = $script."</script>";
 		
 		return $tag.$script.PHP_EOL;

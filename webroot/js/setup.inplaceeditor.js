@@ -31,6 +31,9 @@ inplaceeditor_onsave_hook = function( api ) {
 };
 
 function setup_inplaceeditor(element_id, editortype, htmleditor, directedit) {
+
+	//alert($('#ipe-Item-name-2').html());
+	
 	$('#'+element_id).exInPlaceEditor({
 		'api' : true,
 		'dataSelect' : true,

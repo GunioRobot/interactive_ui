@@ -16,13 +16,13 @@ class SortableHelper extends AppHelper {
 		$script = "<script type='text/javascript'>";
 		switch($type) {
 			case 'list':
-				$script = $script." $(function(){ setup_sortable_list(\"$id\", \"$url\"); }); ";
+				$script = $script." $(function(){ setup_sortable_list('$id', '$url'); }); ";
 				break;
 			case 'table':
-				$script = $script." $(function(){ setup_sortable_talbe(\"$id\", \"$url\"); }); ";
+				$script = $script." $(function(){ setup_sortable_talbe('$id', '$url'); }); ";
 				break;
 			default:
-				$script = $script." $(function(){ setup_sortable_list(\"$id\", \"$url\"); }); ";
+				$script = $script." $(function(){ setup_sortable_list('$id', '$url'); }); ";
 				break;
 		}
 		$script = $script."</script>".PHP_EOL;
