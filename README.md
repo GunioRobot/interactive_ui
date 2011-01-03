@@ -2,7 +2,7 @@
 
 This plugin provides helper for in-place-editor, uploadify
 
-## originals
+## original inplace editor
     inplaceeditor : https://github.com/cyokodog/jquery.ex-in-place-editor
 
 ## Installation
